@@ -1,5 +1,5 @@
 #---------------------[Hk-HassanKarimi]---------------------#
-#BARIE AND MURTAZA IS THE BEST OF THE CRACK TOOLS SYESTUM#
+#Hassan AND Karimi IS THE BEST OF THE CRACK TOOLS SYESTUM#
 #AFGHANISTAN TRICKERS
 import os
 import sys
@@ -12,9 +12,9 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup as bxx
 import os,base64,zlib,pip,urllib,sys,time,platform,pip,uuid,subprocess
-print('\033[1;32m FOLLOW MY TELEGRAM CHANNEL..\033[1;32m')
+print('\033[1;32m FOLLOW MY Facebook ..\033[1;32m')
 #os.system("pip uninstall urllib3 requests chardet idna certifi -y");os.system("pip install urllib3 requests chardet idna certifi")
-os.system('xdg-open https://t.me/Barie_tech007')
+os.system('xdg-open https://m.facebook.com/groups/4619616058120223/?ref=share&mibextid=NSMWBT')
 print(' ')
 from bs4 import BeautifulSoup as sop
 try:
@@ -161,7 +161,7 @@ logo=("""
 .######..######...####....####...######..##.###.
 .##..##..##..##......##......##..##..##..##..##.
 .##..##..##..##...####....####...##..##..##..##.
-................................................ 
+................................................AFG 
 			
 \033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
 ╠══[\033[1;33m[•] AUTHOR   \33[0;m:\033[1;35m Hassan & \033[1;36m Hassan 
